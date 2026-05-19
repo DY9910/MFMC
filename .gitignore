@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Dataset files: raw data are not redistributed
+DEAP/DEAP_data/
+DEAP/raw/
+CEAP/CEAP/
+CEAP/raw/
+HCI/HCI/
+HCI/raw/
+
+# Generated processed arrays are not redistributed
+DEAP/Data_processed/
+CEAP/CEAP_Processed/
+HCI/Data_processed/
+Supplement/Preprocess_sensitivity/Processed_data/
+
+# Large binary/generated outputs
+*.npy
+*.npz
+*.dat
+*.pkl
+*.pth
+*.pt
+
+# Runtime logs and temporary outputs
+*.log
+logs/
+tmp/
+temp/
+
